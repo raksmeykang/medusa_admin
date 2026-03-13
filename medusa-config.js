@@ -1,5 +1,9 @@
 import { loadEnv, defineConfig } from "@medusajs/framework/utils"
+import path from "path"
+import { fileURLToPath } from "url"
 
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 loadEnv(process.env.NODE_ENV || "development", process.cwd())
 
@@ -17,7 +21,7 @@ export default defineConfig({
   },
   modules: {
     marketplace: {
-      resolve: "./src/modules/marketplace",
+      resolve: path.resolve(__dirname, "src/modules/marketplace"),
     }
   }
 })

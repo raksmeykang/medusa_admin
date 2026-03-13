@@ -15,6 +15,7 @@
   "dependencies": {
     "@medusajs/admin-sdk": "^2.0.0",
     "@medusajs/framework": "^2.0.0",
+    "@medusajs/icons": "^2.13.3",
     "@medusajs/medusa": "^2.0.0",
     "@medusajs/ui": "^2.0.0",
     "express": "^4.19.2",
