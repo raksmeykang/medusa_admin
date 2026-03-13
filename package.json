@@ -1,6 +1,7 @@
 {
   "name": "medusa-multi-vendor",
   "version": "0.0.1",
+  "type": "module",
   "private": true,
   "engines": {
     "node": ">=20"
