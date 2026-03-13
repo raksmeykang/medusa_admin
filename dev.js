@@ -1,9 +1,10 @@
-const http = require('http');
-const { spawn } = require('child_process');
-require('dotenv').config();
+import http from 'http';
+import { spawn } from 'child_process';
+import { loadEnv } from "@medusajs/framework/utils";
+
+loadEnv(process.env.NODE_ENV || "development", process.cwd());
 
 const port = process.env.PORT || 9000;
-
 
 console.log(`Starting Medusa on port ${port}...`);
 // Always try to start Medusa so we can see what errors if it's missing DATABASE_URL
