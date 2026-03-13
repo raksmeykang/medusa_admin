@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "medusa build",
-    "dev": "medusa develop",
+    "dev": "node dev.js",
     "start": "medusa start",
     "seed": "medusa seed"
   },
