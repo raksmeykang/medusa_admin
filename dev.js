@@ -42,5 +42,5 @@ if (!process.env.DATABASE_URL || process.env.DATABASE_URL.includes('<user>')) {
   });
 } else {
   console.log("DATABASE_URL found. Starting Medusa...");
-  const medusa = spawn('npx', ['-y', '@medusajs/medusa-cli', 'develop', '--port', port.toString()], { stdio: 'inherit' });
+  const medusa = spawn('npx', ['medusa', 'develop', '--port', port.toString()], { stdio: 'inherit' });
 }
