@@ -1,0 +1,9 @@
+{
+  "name": "@medusajs/marketplace",
+  "version": "1.0.0",
+  "description": "Marketplace module for Medusa",
+  "main": "index.ts",
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {}
+}

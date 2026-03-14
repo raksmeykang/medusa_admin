@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "email": "admin@medusa-test.com",
+      "password": "supersecretpassword"
+    }
+  ],
+  "regions": [
+    {
+      "name": "Default Region",
+      "currency_code": "usd",
+      "tax_rate": 0,
+      "payment_providers": ["manual"],
+      "fulfillment_providers": ["manual"]
+    }
+  ],
+  "shipping_options": [
+    {
+      "name": "Standard Shipping",
+      "region_name": "Default Region",
+      "provider_id": "manual",
+      "data": {},
+      "price_type": "flat_rate",
+      "amount": 1000
+    }
+  ]
+}

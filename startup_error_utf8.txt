@@ -1,0 +1,76 @@
+﻿Starting Medusa with portable Node v20...
+powershell : MODULE 
+12600: looking for "B:\\g
+ithub\\medusa_admin\\medu
+sa_admin\\node_modules\\@
+medusajs\\medusa-cli\\bin
+\\medusa.js" in ["C:\\Use
+rs\\smey\\.node_modules",
+"C:\\Users\\smey\\.node_l
+ibraries","B:\\github\\me
+dusa_admin\\medusa_admin\
+\node_portable\\node-v20.
+18.0-win-x64\\lib\\node"]
+At line:1 char:1
++ powershell 
+-ExecutionPolicy Bypass 
+-File 
+.\start_medusa_v20.ps1 > 
+sta ...
++ ~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo       
+       : NotSpecifi    
+ed: (MODULE 12600:     
+l...64\\lib\\node    
+"]:String) [], Rem    
+oteException
+    + FullyQualifiedEr   
+ rorId : NativeComm    
+andError
+ 
+node:internal/modules/cjs
+/loader:1228
+  throw err;
+  ^
+
+Error: Cannot find 
+module 'B:\github\medusa_
+admin\medusa_admin\node_m
+odules\@medusajs\medusa-c
+li\bin\medusa.js'
+    at 
+Module._resolveFilename (
+node:internal/modules/cjs
+/loader:1225:15)
+    at Module._load (node
+:internal/modules/cjs/loa
+der:1051:27)
+    at Function.executeUs
+erEntryPoint [as 
+runMain] (node:internal/m
+odules/run_main:174:12)
+    at node:internal/main
+/run_main_module:28:49 {
+  code: 
+'MODULE_NOT_FOUND',
+  requireStack: []
+}
+Thrown at:
+    at 
+Module._resolveFilename (
+node:internal/modules/cjs
+/loader:1225:15)
+    at Module._load (node
+:internal/modules/cjs/loa
+der:1051:27)
+    at 
+executeUserEntryPoint (no
+de:internal/modules/run_m
+ain:174:12)
+    at node:internal/main
+/run_main_module:28:49
+
+
+Node.js v20.18.0
